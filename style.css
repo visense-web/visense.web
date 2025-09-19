@@ -1,18 +1,16 @@
-/* 1. Reset básico */
-* {
+//* FORZAR el fondo en toda la página */
+html, body {
+  height: 100%;
+  min-height: 100%;
+  background: linear-gradient(135deg, #bebebe, #f5fffd) !important;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-/* 2. Tipografía y fondo global */
-body {
-  font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(135deg, #bebebe, #f5fffd);
-  color: #333;
-  line-height: 1.6;
-  padding-top: 70px; /* Espacio para navbar fija */
-}
+
+
+
 
 .navbar {
   position: fixed;
@@ -328,4 +326,5 @@ footer {
   line-height: 1.5;
 
 }
+
 
