@@ -8,7 +8,7 @@
 /* 2. Tipografía y fondo global */
 body {
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(to bottom right, #ffffff, white);
+  background: linear-gradient(135deg, #bebebe, #f5fffd);
   color: #333;
   line-height: 1.6;
   padding-top: 70px; /* Espacio para navbar fija */
@@ -328,3 +328,4 @@ footer {
   line-height: 1.5;
 
 }
+
