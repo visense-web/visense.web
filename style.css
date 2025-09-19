@@ -65,7 +65,7 @@ nav a:hover {
 
 /* 4. Encabezado */
 header {
-  background-color: white;
+  background-color: transparent;
   color: black;
   padding: 10px 10px;
   text-align: center; /* Encabezado centrado */
@@ -326,6 +326,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
