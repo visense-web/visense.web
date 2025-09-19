@@ -50,7 +50,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  padding-right: 30px;
+  padding-right: 50px;
 }
 
 nav a {
@@ -58,6 +58,7 @@ nav a {
   color: black;
   font-weight: 500;
   transition: color 0.3s;
+  padding: 8px 12px;
 }
 
 nav a:hover {
@@ -327,6 +328,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
