@@ -7,13 +7,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;              /* espacio entre enlaces */
-  padding-right: 30px;    /* espacio extra a la derecha */
-  padding-left: 30px;     /* opcional, también a la izquierda */
   
 
 .navbar {
@@ -330,6 +323,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
