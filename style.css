@@ -15,7 +15,12 @@ nav {
   padding-right: 30px;    /* espacio extra a la derecha */
   padding-left: 30px;     /* opcional, también a la izquierda */
 
-
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.3s;
+  padding: 8px 12px;      
 
 .navbar {
   position: fixed;
@@ -331,6 +336,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
