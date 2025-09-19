@@ -1,4 +1,5 @@
-/* FORZAR el fondo en toda la página */
+
+//* FORZAR el fondo en toda la página */
 html, body {
   height: 100%;
   min-height: 100%;
@@ -7,7 +8,6 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
 
 
 
@@ -50,7 +50,7 @@ html, body {
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
 }
 
 nav a {
@@ -327,6 +327,9 @@ footer {
   line-height: 1.5;
 
 }
+
+
+
 
 
 
