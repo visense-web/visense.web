@@ -1,4 +1,4 @@
-//* FORZAR el fondo en toda la página */
+/* FORZAR el fondo en toda la página */
 html, body {
   height: 100%;
   min-height: 100%;
@@ -327,6 +327,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
