@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 16px; /* Reducido a la mitad */
+  padding: 10px 8px; /* Reducido a la mitad */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   z-index: 1000;
   flex-wrap: wrap; /* Para que no se desborde en pantallas pequeñas */
@@ -328,6 +328,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
