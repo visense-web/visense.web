@@ -80,7 +80,7 @@ main {
 
 /* 6. Pie de página */
 footer {
-  background-color: white;
+  background-color: transparent;
   padding: 20px;
   text-align: center; /* Pie de página centrado */
 }
@@ -326,5 +326,6 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
