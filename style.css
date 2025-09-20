@@ -204,6 +204,9 @@ footer {
   text-align: left; /* Texto alineado a la izquierda */
 }
 
+.container {
+  text-align: center;
+}
 /* ========================= */
 /* 📱 Adaptación a móviles */
 /* ========================= */
@@ -331,6 +334,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
