@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+
 
  
   <header class="navbar">
@@ -30,7 +30,10 @@
       <p>"Cuida tu camino"</p>
     </section>
 
-    
+   <button onclick="leerTexto()">🔊 Escuchar</button>
+<p id="texto">
+  
+</p> 
  
   </main>
             </div>
@@ -106,8 +109,23 @@
     
   </div>
 </section>
+              </p> 
+  <script>
+function leerTexto() {
+  const texto = document.getElementById("texto").innerText;
+  const speech = new SpeechSynthesisUtterance(texto);
 
+  // Opcional: configurar idioma y voz
+  speech.lang = "es-ES"; // Español (puede cambiarse a en-US, fr-FR, etc.)
+  speech.rate = 1;       // Velocidad (0.5 = lento, 2 = rápido)
+  speech.pitch = 1;      // Tono (0 = bajo, 2 = agudo)
+  
+  window.speechSynthesis.speak(speech);
+}
+</script>            
+</body>
 </html>
+
 
 
 
