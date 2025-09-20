@@ -319,7 +319,7 @@ footer {
 
 .video-container video {
   width: 100%;
-  max-width: 700px;
+  max-width: 300px;
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   margin-bottom: 30px;
@@ -331,6 +331,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
