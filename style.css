@@ -211,6 +211,14 @@ footer {
   body {
     padding-top: 60px;
       font-size: 14px;
+   h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
   }
 
   .navbar {
@@ -227,15 +235,6 @@ footer {
     padding: 20px 15px;
   }
   
-    font-size: 26px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  p {
-    font-size: 14px;
-  }
-
   .productos h2 {
     font-size: 26px;
   }
@@ -340,6 +339,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
