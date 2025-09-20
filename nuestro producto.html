@@ -25,7 +25,7 @@
   <h2>***</h2>
   <div class="productos-grid">
 
-    <section class="sobre-visense" id="sobre-visense">
+   
     <div class="producto-card">
       <img src="VisenseTotal.png" alt="Producto Visense">
       <h3>Bastón Inteligente ViSense</h3>
@@ -41,29 +41,11 @@
       <p><a href="https://wa.me/573169992631"><i class="fab fa-whatsapp"></i> Whatsapp</a></p>
     </section>
 
- <button id="leerBtn">🔊 Escuchar</button>
-      
-      <script>
-  document.getElementById("leerBtn").addEventListener("click", function() {
-    // Cancela cualquier lectura previa
-    speechSynthesis.cancel();
 
-    // Obtiene el texto de la sección
-    let texto = document.getElementById("sobre-visense").innerText;
-
-    // Crea el objeto de lectura
-    let lectura = new SpeechSynthesisUtterance(texto);
-    lectura.lang = "es-ES"; // Español
-    lectura.rate = 1;       // Velocidad normal
-    lectura.pitch = 1;      // Tono normal
-
-    // Inicia la lectura
-    speechSynthesis.speak(lectura);
-  });
-</script>
 
 
 </html>
+
 
 
 
