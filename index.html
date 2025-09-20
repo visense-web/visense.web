@@ -73,6 +73,24 @@
   <button id="leerBtn">🔊 Escuchar</button>
 </section>
 
+<script>
+  document.getElementById("leerBtn").addEventListener("click", function() {
+    // Cancela cualquier lectura previa
+    speechSynthesis.cancel();
+
+    // Obtiene el texto de la sección
+    let texto = document.getElementById("sobre-visense").innerText;
+
+    // Crea el objeto de lectura
+    let lectura = new SpeechSynthesisUtterance(texto);
+    lectura.lang = "es-ES"; // Español
+    lectura.rate = 1;       // Velocidad normal
+    lectura.pitch = 1;      // Tono normal
+
+    // Inicia la lectura
+    speechSynthesis.speak(lectura);
+  });
+</script>
 
               
 <section class="info-container">
@@ -122,6 +140,7 @@ function leerTexto() {
 </script>            
 </body>
 </html>
+
 
 
 
