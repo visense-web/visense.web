@@ -211,7 +211,8 @@ footer {
   body {
     padding-top: 60px;
       font-size: 14px;
-
+  }
+  
   .navbar {
     flex-direction: column;
     padding: 15px;
@@ -270,7 +271,7 @@ footer {
 }
 
 .logo-centro {
-  flex: 0.5;
+  flex: 1;
   display: flex;
   justify-content: center;
 }
@@ -330,6 +331,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
