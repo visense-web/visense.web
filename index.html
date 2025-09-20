@@ -92,6 +92,13 @@
   });
 </script>
 
+ <button onclick="detenerLectura()">⏹️ Detener</button>
+
+<script>
+function detenerLectura() {
+  window.speechSynthesis.cancel();
+}
+</script>
               
 <section class="info-container">
   <!-- Valores -->
@@ -140,6 +147,7 @@ function leerTexto() {
 </script>            
 </body>
 </html>
+
 
 
 
