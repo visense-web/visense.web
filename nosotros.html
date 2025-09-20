@@ -35,6 +35,7 @@
     <header class="header-txt"></header>
         <div class="title"></div>
             <body>  
+              <section class="sobre-visense" id="sobre-visense">
               <h2>¿Como se creó Visense?</h2> 
 
                  <p>La idea de ViSense surgio al ver que en colombia
@@ -70,6 +71,27 @@
                    como la inteligencia artificial y el desarrollo de aplicativos móviles
                    de asistencia, con el fin de fortalecer la autonomía, seguridad y 
                    calidad de vida de la comunidad con discapacidad visual. </p>   
+              </section>
+              <button id="leerBtn">🔊 Escuchar</button>
+              <script>
+  document.getElementById("leerBtn").addEventListener("click", function() {
+    // Cancela cualquier lectura previa
+    speechSynthesis.cancel();
+
+    // Obtiene el texto de la sección
+    let texto = document.getElementById("sobre-visense").innerText;
+
+    // Crea el objeto de lectura
+    let lectura = new SpeechSynthesisUtterance(texto);
+    lectura.lang = "es-ES"; // Español
+    lectura.rate = 1;       // Velocidad normal
+    lectura.pitch = 1;      // Tono normal
+
+    // Inicia la lectura
+    speechSynthesis.speak(lectura);
+  });
+</script>
+
 
 <section class="video-section">
   <div class="video-container">
@@ -81,6 +103,7 @@
 </section>
             </body>
             </html>
+
 
 
 
