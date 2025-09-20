@@ -18,6 +18,7 @@ body {
   top: 0;
   left: 0;
   width: 100%; /* Ocupa todo el ancho */
+  height: 35px;
   background-color: #f5f6f0;
   display: flex;
   justify-content: space-between;
@@ -329,6 +330,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
