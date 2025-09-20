@@ -211,15 +211,6 @@ footer {
   body {
     padding-top: 60px;
       font-size: 14px;
-   h1 {
-    font-size: 26px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  p {
-    font-size: 14px;
-  }
 
   .navbar {
     flex-direction: column;
@@ -339,6 +330,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
