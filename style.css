@@ -303,10 +303,14 @@ footer {
     text-align: center;
   }
 
-  .valores, .contacto {
+  .valores {
     text-align: center;
   }
 
+  .contacto {
+    text-align: center
+  }
+  
   .logo-centro img {
     max-width: 100px;
     margin: 20px 0;
@@ -334,6 +338,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
