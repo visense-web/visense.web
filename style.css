@@ -67,14 +67,6 @@ nav a:hover {
   color: #555;
 }
 
-/* 4. Encabezado */
-header {
-  background-color: linear-gradient(135deg, #bebebe, #f5fffd);
-  color: black;
-  padding: 1px 10px;
-  text-align: center; /* Encabezado centrado */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
 
 
 footer {
@@ -350,6 +342,7 @@ h1, h2, h3 {
   line-height: 1.5;
 
 }
+
 
 
 
