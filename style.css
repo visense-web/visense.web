@@ -224,6 +224,7 @@ h1, h2, h3 {
   body {
     padding-top: 60px;
       font-size: 14px;
+    font-family: 'Roboto Slab', serif;
   }
   
   .navbar {
@@ -348,6 +349,7 @@ h1, h2, h3 {
   line-height: 1.5;
 
 }
+
 
 
 
