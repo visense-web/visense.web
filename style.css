@@ -10,11 +10,12 @@ body {
 }
 
 #inicio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  display: block;          /* evita que se centre a pantalla completa */
+  text-align: center;      /* centra el texto horizontalmente */
+  padding: 80px 20px 40px; /* espacio arriba (para no taparse con el navbar) y abajo */
+  margin: 0 auto;
+  height: auto;            /* asegura que no ocupe toda la pantalla */
+  min-height: 0; 
 }
 
 
@@ -348,6 +349,7 @@ h1, h2, h3 {
   line-height: 1.5;
 
 }
+
 
 
 
