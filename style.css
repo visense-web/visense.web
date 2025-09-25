@@ -69,7 +69,7 @@ nav a:hover {
 
 /* 4. Encabezado */
 header {
-  background-color: white;
+  background-color: linear-gradient(135deg, #bebebe, #f5fffd);
   color: black;
   padding: 1px 10px;
   text-align: center; /* Encabezado centrado */
@@ -350,6 +350,7 @@ h1, h2, h3 {
   line-height: 1.5;
 
 }
+
 
 
 
