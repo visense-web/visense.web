@@ -76,14 +76,8 @@ header {
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* 5. Contenido principal */
-main {
-  padding: 20px 20px;
-  text-align: center; /* Contenido alineado a la izquierda */
-}
 
-/* 6. Pie de página */
-footer {
+  footer {
   background-color: transparent;
   padding: 20px;
   text-align: center; /* Pie de página centrado */
@@ -356,6 +350,7 @@ h1, h2, h3 {
   line-height: 1.5;
 
 }
+
 
 
 
