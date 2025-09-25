@@ -207,6 +207,24 @@ footer {
 .container {
   text-align: center;
 }
+
+ main {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2, h3 {
+      color: black;
+    }
+
+    .card {
+      background-color: gray;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
 /* ========================= */
 /* 📱 Adaptación a móviles */
 /* ========================= */
@@ -338,6 +356,7 @@ footer {
   line-height: 1.5;
 
 }
+
 
 
 
