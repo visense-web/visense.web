@@ -216,6 +216,10 @@ h1, h2, h3 {
     border-radius: 170px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+.button {
+   text-align: center;
+}
+    
 
 /* ========================= */
 /* 📱 Adaptación a móviles */
@@ -349,6 +353,7 @@ h1, h2, h3 {
   line-height: 1.5;
 
 }
+
 
 
 
