@@ -73,9 +73,9 @@
   </section>
   </div>
   
-                 <!-- Botón para activar la lectura -->
+      <div class="voice-controls">        
   <button id="leerBtn">🔊 Escuchar</button>
-
+      </div>
 <script>
   document.getElementById("leerBtn").addEventListener("click", function() {
     // Cancela cualquier lectura previa
@@ -95,8 +95,10 @@
   });
 </script>
 
+              <div class="voice-controls">
  <button onclick="detenerLectura()">⏹️ Detener</button>
-
+              </div>
+                
 <script>
 function detenerLectura() {
   window.speechSynthesis.cancel();
@@ -150,6 +152,7 @@ function leerTexto() {
 </script>            
 </body>
 </html>
+
 
 
 
